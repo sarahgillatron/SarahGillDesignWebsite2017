@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-1 { width: calc((100% / 12); }
+    .col-2 { width: calc((100% /12) * 2); }
+    .col-3 { width: calc((100% / 12) * 3); }
+    .col-4 { width: calc((100% /12) * 4); }
+    .col-5 { width: calc((100% /12) * 5); }
+    .col-6 { width: calc((100% / 12) * 6); }
+    .col-7 { width: calc((100% /12) * 7); }
+    .col-8 { width: calc((100% /12) * 8); }
+    .col-9 { width: calc((100% /12) * 9); }
+    .col-10 { width: calc((100% /12) * 10); }
+    .col-11 { width: calc((100% /12) * 11); }
+    .col-12 { width: calc((100% /12) * 12); }
+
+[class*="col-"] {
+    padding: 0px 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-m-1 { width: calc(100% / 12); }
+    .col-m-2 { width: calc((100% /12) * 2); }
+    .col-m-3 { width: calc((100% /12) * 3);  }
+    .col-m-4 { width: calc((100% /12) * 4); }
+    .col-m-5 { width: calc((100% /12) * 5; }
+    .col-m-6 { width: calc((100% /12) * 6); }
+    .col-m-7 { width: calc((100% /12) * 7); }
+    .col-m-8 { width: calc((100% /12) * 8); }
+    .col-m-9 { width: calc((100% /12) * 9); }
+    .col-m-10 { width: calc((100% /12) * 10); }
+    .col-m-11 { width: calc((100% /12) * 11); }
+    .col-m-12 { width: calc((100% /12) * 12); }
+}
+
+@media only screen and (min-width: 768px) {
+    .col-l-1 { width: calc((100% /12); }
+    .col-l-2 { width: calc((100% /12) * 2); }
+    .col-l-3 { width: calc((100% / 12) * 3); }
+    .col-l-4 { width: calc((100% /12) * 4); }
+    .col-l-5 { width: calc((100% /12) * 5); }
+    .col-l-6 { width: calc((100% / 12) * 6); }
+    .col-l-7 { width: calc((100% /12) * 7); }
+    .col-l-8 { width: calc((100% /12) * 8); }
+    .col-l-9 { width: calc((100% /12) * 9); }
+    .col-l-10 { width: calc((100% /12) * 10); }
+    .col-l-11 { width: calc((100% /12) * 11); }
+    .col-l-12 { width: calc((100% /12) * 12); }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.test-grid {
+    background-color: #000000;
+    height: 200px;
+}
