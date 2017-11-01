@@ -1,0 +1,43 @@
+.nav {
+	height:100px;
+	width:95%;
+	background-color:red;
+	margin: 0 auto;
+	padding: 20px 0px 0px 0px;
+	position:fixed;
+	right:0;
+	left:0;
+	top:0;
+	z-index: 1030;
+
+	.nav-menu {
+		float: right;
+		display: inline;
+
+		p {
+			display: inline;
+			margin: 0 30px;
+
+			&:last-child {
+		
+	}		margin-right:0;
+			}
+		}
+
+
+	.nav-logo {
+		float: left;
+	}
+}
+
+
+.tester {
+	height:500px;
+	background-color:blue;
+
+}
+
+.tester-02 {
+	height:500px;
+	background-color:purple;
+}
