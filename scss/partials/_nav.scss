@@ -1,43 +1,42 @@
 .nav {
-	height:100px;
-	width:95%;
-	background-color:red;
-	margin: 0 auto;
-	padding: 20px 0px 0px 0px;
+	height:90px;
+	width:100%;
+	background-color:#ffffff;
+	padding: 28px 15px 0px 15px;
 	position:fixed;
 	right:0;
 	left:0;
 	top:0;
 	z-index: 1030;
 
-	.nav-menu {
-		float: right;
-		display: inline;
-
-		p {
+		.nav-menu {
+			overflow:hidden;
+			float:right;
 			display: inline;
-			margin: 0 30px;
+			margin-top: 4px;
+
+			a {
+				float:right;
+    			text-align: center;
+    			text-decoration: none;
+    			margin-right: 25px;
+			}
 
 			&:last-child {
-		
-	}		margin-right:0;
+				margin-right:0;
 			}
 		}
 
 
 	.nav-logo {
 		float: left;
+
+			a:hover {
+				border:none;
+			}
+
+			img {
+				height:35px;
+			}
 	}
-}
-
-
-.tester {
-	height:500px;
-	background-color:blue;
-
-}
-
-.tester-02 {
-	height:500px;
-	background-color:purple;
 }
